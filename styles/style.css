@@ -124,10 +124,6 @@
   pointer-events: none;
 }
 
-.header__page-title {
-  margin-inline-start: -10px;
-}
-
 .header__title {
   justify-self: end;
   margin-block-end: 55px;
@@ -160,17 +156,16 @@
   gap: 20px;
 }
 
-.article {
-  display: grid;
-  gap: 10px;
-}
-
 .article__title,
 .section-tips__subtitle,
 .gallery-section__title {
   font-weight: 700;
   font-size: inherit;
   line-height: inherit;
+}
+
+.article__title {
+  margin-block-end: 10px;
 }
 
 .article__title_regular {
@@ -251,10 +246,6 @@
 
   .header__theme-menu {
     margin-block-start: 172px;
-  }
-
-  .header__page-title {
-    margin-inline-start: 0;
   }
 
   .header__title {
